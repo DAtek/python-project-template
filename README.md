@@ -9,8 +9,7 @@ A template for modern python projects using:
 - [direnv](https://direnv.net/) for loading environmental variables
 
 ## Usage
-- `mkdir <your project dir>`
-- `cd <your project dir> && git clone git@github.com:DAtek/python-project-template.git .`
+- Create a new repository using this template
 - Set the preferred python version in `init.sh` (optional)
 - Set the uv settings in `uv.toml` (optional)
 - Run `init.sh`

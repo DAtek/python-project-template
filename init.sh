@@ -3,7 +3,6 @@ set -eou pipefail
 
 export UV_PYTHON=3.13
 
-rm -rf .git
 rm README.md
 rm init.sh
 
@@ -23,7 +22,4 @@ select = [
 asyncio_mode = \"auto\"
 " >> pyproject.toml
 
-
-# uv already called git init
-git checkout -b master
 git add .
