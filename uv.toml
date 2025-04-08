@@ -1,0 +1,3 @@
+# See https://docs.astral.sh/uv/reference/settings/
+
+link-mode = "symlink"
